@@ -1,7 +1,7 @@
 {
   packageOverrides = pkgs: with pkgs; {
     myPackages = pkgs.buildEnv {
-      name = "mischa-tools";
+      name = "dev-tools";
       paths = [
         go
         nodejs_22
